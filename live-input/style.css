@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f2f2f2;
+    color: #000;
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form{
+    background:#fff;
+    margin: 200px auto;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+form .field{
+    display: flex;
+    align-items: center;
+    background-color: #0101;
+}
+
+form input{
+    margin: 0 16px;
+    font-size: 0.8rem;
+    border: 2px solid #777;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.tick{
+    color: #07cc81;
+    opacity: 0;
+}
+
+.valid .tick{
+    opacity: 1;
+}
+
+form .valid input{
+    border-color: #07cc81;
+    outline: #07cc81;
+}
+
